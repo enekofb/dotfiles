@@ -8,15 +8,14 @@
 - link:
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
+    ~/.shell: shell
     ~/.zshrc: zshrc
+    ~/.expedia: expedia/dotfiles
+    ~/.ssh/config: expedia/dotfiles/ssh/config
 
 - create: []
 
 - shell:
+  - cp -Rv expedia/dotfiles/bin/ /usr/local/bin
   - git submodule sync --recursive
-  # the following have to run after linking ~/.gitconfig
-  - git update-submodules
-  - >
-    git cleanall -f
-    shell/plugins/
-    zsh/plugins/
+  - git update-submodules --recursive
