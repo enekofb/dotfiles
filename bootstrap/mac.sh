@@ -65,25 +65,15 @@ brew update
 PACKAGES=(
 	ansible
 	awscli
-#	aws-elasticbeanstalk
 	bash-completion
 	bash-git-prompt
 	cask
-#	cookiecutter
 	curl
 	dep
-#	flake8
 	gist
 	git
-#	glances
-#	go-delve/delve/delve
-#	grafana
-#	graphviz
-#	hh
-#	hicolor-icon-theme
+	golang
 	htop
-#	hugo
-#	influxdb
 	jq
 	kubernetes-cli
 	kubernetes-helm

@@ -23,6 +23,9 @@ source ~/.shell/bootstrap.sh
 # External settings
 source ~/.shell/external.sh
 
+# Environment Variables
+source ~/.shell/env.sh
+
 # Aliases
 source ~/.shell/aliases.sh
 

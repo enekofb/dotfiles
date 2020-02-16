@@ -8,6 +8,7 @@
 - link:
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
+    ~/.zshrc: zshrc
 
 - create: []
 
