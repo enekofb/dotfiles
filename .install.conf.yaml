@@ -6,33 +6,10 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.agignore:
-    ~/.aria2/aria2.conf:
-    ~/.axelrc:
-    ~/.bash:
-    ~/.bash_profile:
-    ~/.bashrc:
-    ~/.dotfiles: ''
-    ~/.emacs.d:
-    ~/.emacs:
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
-    ~/.gnupg/gpg.conf:
-    ~/.haskeline:
-    ~/.hgrc:
-    ~/.inputrc:
-    ~/.irssi:
-    ~/.pythonrc:
-    ~/.rtorrent.rc:
-    ~/.screenrc:
-    ~/.shell:
-    ~/.tmux.conf:
-    ~/.vim:
-    ~/.vimrc:
-    ~/.zsh:
-    ~/.zshrc:
 
-- create:
+- create: []
 
 - shell:
   - git submodule sync --recursive

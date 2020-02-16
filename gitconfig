@@ -103,6 +103,8 @@
 
 [user]
 	useConfigOnly = true
+	email = efernandezbrei@hotels.com
+	name = Eneko Fernandez
 
 [http]
 	cookieFile = ~/.gitcookies
