@@ -83,8 +83,7 @@ PACKAGES=(
 	python3
 	pyenv
 	pyenv-virtualenv
-#	shellcheck
-#	shfmt
+	sshuttle
 	terraform
 	tree
 	watch
