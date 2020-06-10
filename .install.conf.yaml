@@ -10,12 +10,12 @@
     ~/.gitignore_global: gitignore_global
     ~/.shell: shell
     ~/.zshrc: zshrc
-    ~/.expedia: expedia/dotfiles
-    ~/.ssh/config: expedia/dotfiles/ssh/config
+    ~/.expedia: expedia
+    ~/.ssh/config: expedia/ssh/config
 
 - create: []
 
 - shell:
-  - cp -Rv expedia/dotfiles/bin/ /usr/local/bin
+  - cp -Rv expedia/bin/ /usr/local/bin
   - git submodule sync --recursive
   - git update-submodules --recursive
