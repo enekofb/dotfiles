@@ -130,3 +130,13 @@ alias mirrorsite='wget -m -k -K -E -e robots=off'
 
 # Mirror stdout to stderr, useful for seeing data going through a pipe
 alias peek='tee >(cat 1>&2)'
+
+sshk() {
+   if [[ $1 == ip* ]] then
+        IP=$(echo $1 | awk -F. '{ print $1 }' | sed 's/-/./g'| sed 's/ip.//')
+   else
+        IP=$1
+   fi
+   #ssh -i ~/.ssh/kube_aws_rsa core@$IP
+   ssh -q -i ~/.ssh/id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no core@$IP $2
+}

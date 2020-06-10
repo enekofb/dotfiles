@@ -29,7 +29,7 @@
 
 # Aliases
 source ~/.shell/aliases.sh
-source ~/.expedia/aliases.sh
+source ~/expedia/aliases.sh
 
 #
 # # Custom prompt
