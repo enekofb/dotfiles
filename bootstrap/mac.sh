@@ -123,7 +123,7 @@ CASKS=(
 #	google-cloud-sdk
 #	google-hangouts
 #	handbrake
-#	iterm2
+	iterm2
 #	keka
 	keybase
 #	kindle
