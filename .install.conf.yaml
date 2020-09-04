@@ -12,6 +12,7 @@
     ~/.zshrc: zshrc
     ~/.expedia: expedia
     ~/.ssh/config: expedia/ssh/config
+    ~/.gradle/gradle.properties: expedia/gradle
 
 - create: []
 
