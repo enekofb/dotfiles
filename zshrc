@@ -126,6 +126,8 @@ plugins=(git kubectl golang aws docker terraform vault vagrant)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+source ~/.expedia/defaults.sh
+source ~/.expedia/secrets.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
