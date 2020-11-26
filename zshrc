@@ -128,6 +128,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 source ~/.expedia/defaults.sh
 source ~/.expedia/secrets.sh
+source <(kubectl completion zsh)
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
