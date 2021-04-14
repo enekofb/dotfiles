@@ -153,3 +153,7 @@ source <(kubectl completion zsh)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/efernandezbrei/.sdkman"
+[[ -s "/Users/efernandezbrei/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/efernandezbrei/.sdkman/bin/sdkman-init.sh"
