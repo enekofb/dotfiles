@@ -13,6 +13,7 @@
     ~/.expedia: expedia
     ~/.ssh/config: expedia/ssh/config
     ~/.gradle/gradle.properties: expedia/gradle
+    ~/.m2/settings.xml: expedia/mvn-setttings.xml
 
 - create: []
 

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GitSharedSettings">
+    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
+      <list />
+    </option>
+  </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.dotbot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.dotbot/lib/pyyaml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/expedia" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/expedia/dotfiles" vcs="Git" />
   </component>
 </project>
