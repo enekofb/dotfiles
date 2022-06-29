@@ -63,13 +63,11 @@ brew update
 #brew install bash
 
 PACKAGES=(
-	ansible
 	awscli
 	bash-completion
 	bash-git-prompt
 	cask
 	curl
-	dep
 	gist
 	git
 	golang
@@ -77,6 +75,9 @@ PACKAGES=(
 	jq
 	kubernetes-cli
 	kubernetes-helm
+	kubectx
+  kuben
+	kind
 	node
 	openssl
 	pipenv
