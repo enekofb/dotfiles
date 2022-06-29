@@ -29,7 +29,6 @@
 
 # Aliases
 source ~/.shell/aliases.sh
-source ~/.expedia/aliases.sh
 
 #
 # # Custom prompt
@@ -126,8 +125,6 @@ plugins=(git kubectl golang aws docker terraform vault vagrant)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-source ~/.expedia/defaults.sh
-source ~/.expedia/secrets.sh
 source <(kubectl completion zsh)
 
 # export MANPATH="/usr/local/man:$MANPATH"

@@ -1,6 +1,14 @@
 Dotfiles
 ========
 
+## Getting started
+
+1. bootstrap your mac via `bash bootstrap/mac.sh`
+2. install dotfiles via `bash install`
+
+
+## install dotfiles
+
 After cloning this repo, run `install` to automatically set up the development
 environment. Note that the install script is idempotent: it can safely be run
 multiple times.

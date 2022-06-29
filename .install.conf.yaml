@@ -10,14 +10,9 @@
     ~/.gitignore_global: gitignore_global
     ~/.shell: shell
     ~/.zshrc: zshrc
-    ~/.expedia: expedia
-    ~/.ssh/config: expedia/ssh/config
-    ~/.gradle/gradle.properties: expedia/gradle
-    ~/.m2/settings.xml: expedia/mvn-settings.xml
 
 - create: []
 
 - shell:
-  - cp -Rv expedia/bin/ /usr/local/bin
   - git submodule sync --recursive
   - git update-submodules --recursive
