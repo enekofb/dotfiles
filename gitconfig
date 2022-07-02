@@ -116,3 +116,6 @@
 # Allow local customizations in the .gitconfig_local file
 [include]
 	path = ~/.gitconfig_local
+
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
